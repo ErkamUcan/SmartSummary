@@ -127,4 +127,4 @@ This project is licensed under the **MIT License**.
 ## 📌 Notes
 
 This repository serves as the master project combining both frontend and backend.  
-If you're viewing this on GitHub, explore each subfolder for detailed instructions.
+Explore each subfolder for detailed instructions.

@@ -20,35 +20,22 @@ It allows users to upload video files and request context-specific summaries thr
 
 npm install
 
-2. Start the development server
-bash
-Copy
-Edit
+### 2. Start the development server
 npm start
 The app will run on: http://localhost:3000
 
- Communication with Backend
+### Communication with Backend
 This interface sends a POST request to the backend API at:
 
-bash
-Copy
-Edit
 http://localhost:5236/pipeline/run
 With the following JSON body:
-
-json
-Copy
-Edit
 {
   "videoName": "yourfile.mp4",
   "question": "your topic or question"
 }
 The backend returns a context-specific Turkish summary in response.
 
-Project Structure
-bash
-Copy
-Edit
+###  Project Structure
 src/
 ├── components/       # UI components (e.g., UploadBox)
 ├── assets/           # Static files (logo, icons)
@@ -57,14 +44,12 @@ src/
 tailwind.config.js    # Tailwind configuration
 postcss.config.js     # PostCSS plugins
 
+
 Backend Info
 This frontend is designed to work with the Smart Summary Backend, which includes:
-
-ASP.NET Core Web API
-
-Python AI processing pipeline
-
-FFmpeg, Whisper, Sentence-BERT, BART, NLLB models
+-ASP.NET Core Web API
+-Python AI processing pipeline
+-FFmpeg, Whisper, Sentence-BERT, BART, NLLB models
 
 Developer
 Erkam Uçan

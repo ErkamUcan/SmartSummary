@@ -1,4 +1,4 @@
-# 🖥 Smart Summary – Frontend
+#  Smart Summary – Frontend
 
 Bu klasör, **Smart Summary** projesinin kullanıcı arayüzünü içerir.  
 Kullanıcılar bu arayüz üzerinden:
